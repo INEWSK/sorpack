@@ -102,31 +102,38 @@ body {
     -moz-animation-iteration-count: 1;
     -ms-animation: fadeInDown ease-out 1s;
     -ms-animation-iteration-count: 1;
-    cursor: url(http://kicokico.com/Cursor/normal.cur),auto
+    cursor: url(),auto;
 }
 
 .tableborder2 {
-    display: none
+    display: none;
 }
 
 .tableborder5 {
     border: 1px solid #f66;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .tabletitle1 {
     background-color: #f66;
-    color: #fff
+    color: #fff;
 }
 
 div.th {
     border-color: #f66;
     background-color: #f66;
-    background-image: none
+    background-image: none;
 }
 
 a:visited {
-    color: #333
+    color: #333;
+}
+
+.hrstyle {
+	width: 80%;
+	margin: 5px auto;
+	border: 0;
+	border-bottom: 1px dashed #fc8d83;
 }
 
 .list {
@@ -143,7 +150,7 @@ a:visited {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .list:active,.list:focus,.list:hover {
@@ -162,89 +169,82 @@ a:visited {
     -o-animation: Bounce linear 1s;
     -o-animation-iteration-count: 1;
     -ms-animation: Bounce linear 1s;
-    -ms-animation-iteration-count: 1
+    -ms-animation-iteration-count: 1;
 }
 
 .list_a {
     border-right: 1px solid rgba(0,0,0,.4);
-    background-color: transparent
+    background-color: transparent;
 }
 
 .list_c {
     border-right: 1px solid rgba(0,0,0,.4);
-    background-color: transparent
+    background-color: transparent;
 }
 
 .list_r {
-    border-left: 1px solid #fff
+    border-left: 1px solid #fff;
 }
 
 .list_r1 {
     border-left: 1px solid rgba(0,0,0,.4);
-    background-color: transparent
+    background-color: transparent;
 }
 
 .list_s {
     border-right: 1px solid rgba(0,0,0,.4);
-    background-color: transparent
+    background-color: transparent;
 }
 
 .list1 {
-    border-right: 1px solid #fff
+    border-right: 1px solid #fff;
 }
 
 .list {
     margin-bottom: 5px;
     padding: 4px;
     border: 1px solid rgba(0,0,0,.4);
-    background-color: transparent
+    background-color: transparent;
+}
+
+#shojo {
+    float: right;
+    width: 35%;
 }
 
 /*----------------------------------------------------------
 	Header
 ----------------------------------------------------------*/
 #topbar_top {
-    display: none
+    display: none;
 }
 
 #topbar_mid {
-    display: none
+    display: none;
 }
 
 #topbar_bottom {
-    display: none
+    display: none;
 }
 
 #topbar_menu {
-    display: none
-}
-
-#shojo {
-    float: right;
-    width: 35%
-}
-
-.hrstyle {
-	width: 80%;
-	margin: 5px auto;
-	border: 0;
-	border-bottom: 1px dashed #fc8d83
+    display: none;
 }
 
 /*----------------------------------------------------------
-	CD Animation
+	Jigen Ryōiki
 ----------------------------------------------------------*/
-.cd {
-	background-image: url(/UploadFile/2017-4/201742025073511.gif);
-	background-repeat: no-repeat;
-	animation: 15s linear 0s normal none infinite rotate;
-	-webkit-animation:12.5s linear 0s normal none infinite rotate;
-	height: 250px;
-	width: 250px;
+.jr {
+    background-image: url(/UploadFile/2017-4/201742025073511.gif);
+    background-repeat: no-repeat;
+    animation: 15s linear 0s normal none infinite rotate;
+    -webkit-animation:12.5s linear 0s normal none infinite rotate;
+    height: 250px;
+    width: 250px;
     position: relative;
     margin-right: auto;
     margin-left: auto;
-	z-index: 0
+    z-index: 0;
 }
 
 /*----------------------------------------------------------
@@ -258,14 +258,14 @@ a:visited {
     border-right: 1px solid #f66;
     border-bottom: 1px solid #f66;
     border-left: 1px solid #f66;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .mainbar4 {
     border-top: 1px solid #f66;
     border-right: 1px solid #f66;
     border-left: 1px solid #f66;
-    background-color: transparent
+    background-color: transparent;
 }
 
 #boardmaster {
@@ -273,23 +273,23 @@ a:visited {
     -webkit-animation: rainbow 2s infinite;
     -moz-animation: rainbow 2s infinite;
     -o-animation: rainbow 2s infinite;
-    animation: rainbow 2s infinite
+    animation: rainbow 2s infinite;
 }
 
 #masterpic {
-    background: url(/UploadFile/2016-6/201661422493846481.gif) no-repeat scroll 50% 50%
+    background: url(/UploadFile/2016-6/201661422493846481.gif) no-repeat scroll 50% 50%;
 }
 
 #posttopic {
-    background-image: url(/skins/Default/css/button/z_postnew.gif)
+    background-image: url(/skins/Default/css/button/z_postnew.gif);
 }
 
 #postvote {
-    background-image: url(/skins/Default/css/button/z_votenew.gif)
+    background-image: url(/skins/Default/css/button/z_votenew.gif);
 }
 
 #postpaper {
-    background-image: url(/skins/Default/css/button/z_xzb.gif)
+    background-image: url(/skins/Default/css/button/z_xzb.gif);
 }
 
 /*----------------------------------------------------------
@@ -306,20 +306,20 @@ a:visited {
     height: 24px;
     font-size: 14px;
     line-height: 26px;
-    cursor: default
+    cursor: default;
 }
 
 .help-tip:before {
     content: '!';
     font-weight: bold;
-    color: #fff
+    color: #fff;
 }
 
 .help-tip:hover p {
     display: block;
     transform-origin: 100% 0%;
     -webkit-animation: fadeIn 0.3s ease-in-out;
-    animation: fadeIn 0.3s ease-in-out
+    animation: fadeIn 0.3s ease-in-out;
 }
 
 .help-tip p {
@@ -334,7 +334,7 @@ a:visited {
     right: -4px;
     color: #FFF;
     font-size: 13px;
-    line-height: 1.4
+    line-height: 1.4;
 }
 
 .help-tip p:before {
@@ -345,7 +345,7 @@ a:visited {
     border: 6px solid transparent;
     border-bottom-color: #1E2021;
     right: 10px;
-    top: -12px
+    top: -12px;
 }
 
 .help-tip p:after {
@@ -354,43 +354,11 @@ a:visited {
     content: '';
     position: absolute;
     top: -40px;
-    left: 0
+    left: 0;
 }
 
 /*----------------------------------------------------------
-	Over Img
-----------------------------------------------------------*/
-.overimg {
-    position: relative;
-    display: block;
-    box-shadow: 0 0 10px #FFF
-}
-
-.light {
-    cursor: pointer;
-    position: absolute;
-    left: -180px;
-    top: 0;
-    width: 247px;
-    height: 247px;
-    background-image: -moz-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,0.5),rgba(255,255,255,0));
-    background-image: -webkit-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,0.5),rgba(255,255,255,0));
-    transform: skewx(-25deg);
-    -o-transform: skewx(-25deg);
-    -moz-transform: skewx(-25deg);
-    -webkit-transform: skewx(-25deg)
-}
-
-.overimg:hover .light {
-    left: 1280px;
-    -moz-transition: 1.2s;
-    -o-transition: 1.2s;
-    -webkit-transition: 1.2s;
-    transition: 1.2s
-}
-
-/*----------------------------------------------------------
-	Font blurry
+	Font blurry 字体模糊
 ----------------------------------------------------------*/
 .blurry {
     color: transparent;
@@ -399,15 +367,15 @@ a:visited {
     -webkit-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
     -moz-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
     -o-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
-    -ms-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1)
+    -ms-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
 }
 
 .blurry:hover {
-    text-shadow: 0 0 0 #666
+    text-shadow: 0 0 0 #666;
 }
 
 /*----------------------------------------------------------
-	Return top
+	Return top 返回顶部
 ----------------------------------------------------------*/
 #backtop a {
     background-image: url(/UploadFile/2017-4/2017422344267591.gif);
@@ -421,25 +389,25 @@ a:visited {
     -webkit-animation: 12.5s linear 0s normal none infinite rotate;
     -moz-animation: 12.5s linear 0s normal none infinite rotate;
     border-radius: 15px;
-    -webkit-border-radius: 15px
+    -webkit-border-radius: 15px;
 }
 
 /*----------------------------------------------------------
-	Button
+	Button 
 ----------------------------------------------------------*/
 #menu {
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 #menu div {
     margin: 0 30px;
     display: inline;
-    text-align: center
+    text-align: center;
 }
 
 #menu a {
     text-decoration: none;
-    color: white
+    color: white;
 }
 
 #myButton a {
@@ -466,7 +434,7 @@ a:visited {
     font-weight: none;
     padding: 6px 24px;
     text-decoration: none;
-    text-shadow: 0px 1px 0px #b23e35
+    text-shadow: 0px 1px 0px #b23e35;
 }
 
 #myButton a:hover {
@@ -477,12 +445,12 @@ a:visited {
     background: -ms-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
     background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4685d', endColorstr='#fc8d83',GradientType=0);
-    background-color: #e4685d
+    background-color: #e4685d;
 }
 
 #myButton a:active {
     position: relative;
-    top: 1px
+    top: 1px;
 }
 
 /*----------------------------------------------------------
@@ -491,12 +459,12 @@ a:visited {
 ::-webkit-scrollbar-track-piece {
     background-color: #fff;
     -webkit-border-radius: 0;
-    border-radius: 0
+    border-radius: 0;
 }
 
 ::-webkit-scrollbar {
     width: 8px;
-    height: 10px
+    height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -506,14 +474,14 @@ a:visited {
     border-radius: 4px;
     outline: 2px solid #fff;
     outline-offset: -2px;
-    border: 2px solid #fff
+    border: 2px solid #fff;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     height: 50px;
     background-color: #6d9eeb;
     -webkit-border-radius: 4px;
-    border-radius: 4px
+    border-radius: 4px;
 }
 
 /*----------------------------------------------------------
