@@ -93,11 +93,11 @@ body {
     font-family: "Arial", "Verdana", "sans-serif";
     border-radius: 4px;
     opacity: .94;
-    animation: fadeInDown 1 ease-out 1 1 1 normal;
-    -webkit-animation: fadeInDown 1 ease-out 1 1 1 normal;
-    -o-animation: fadeInDown 1 ease-out 1 1 1 normal;
-    -moz-animation: fadeInDown 1 ease-out 1 1 1 normal;
-    -ms-animation: fadeInDown 1 ease-out 1 1 1 normal;
+    animation: fadeInDown 1s ease-out 0s 1;
+    -webkit-animation: fadeInDown 1s ease-out 0s 1;
+    -o-animation: fadeInDown 1s ease-out 0s 1;
+    -moz-animation: fadeInDown 1s ease-out 0s 1;
+    -ms-animation: fadeInDown 1s ease-out 0s 1;
     cursor: url(),auto;
 }
 
@@ -156,16 +156,11 @@ a:visited {
     -o-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     transform-origin:50% 50%;
-    animation: Bounce linear 1s;
-    animation-iteration-count: 1;
-    -webkit-animation: Bounce linear 1s;
-    -webkit-animation-iteration-count: 1;
-    -moz-animation: Bounce linear 1s;
-    -moz-animation-iteration-count: 1;
-    -o-animation: Bounce linear 1s;
-    -o-animation-iteration-count: 1;
-    -ms-animation: Bounce linear 1s;
-    -ms-animation-iteration-count: 1;
+    animation: Bounce 1s linear 0s 1;
+    -webkit-animation: Bounce 1s linear 0s 1;
+    -moz-animation: Bounce 1s linear 0s 1;
+    -o-animation: Bounce 1s linear 0s 1;
+    -ms-animation: Bounce 1s linear 0s 1;
 }
 
 .list_a {
@@ -262,11 +257,11 @@ a:visited {
 }
 
 #boardmaster {
-    -ms-animation: rainbow 2s infinite;
-    -webkit-animation: rainbow 2s infinite;
-    -moz-animation: rainbow 2s infinite;
-    -o-animation: rainbow 2s infinite;
-    animation: rainbow 2s infinite;
+    -ms-animation: rainbow 3s infinite;
+    -webkit-animation: rainbow 3s infinite;
+    -moz-animation: rainbow 3s infinite;
+    -o-animation: rainbow 3s infinite;
+    animation: rainbow 3s infinite;
 }
 
 #masterpic {
