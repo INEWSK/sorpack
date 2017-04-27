@@ -90,19 +90,14 @@ body {
     background-attachment: fixed, scroll;
     background-repeat: no-repeat, repeat;
     background-position: 70% 70%, 0 0;
-    font-family: "Tahoma", "Verdana", "sans-serif";
+    font-family: "Arial", "Verdana", "sans-serif";
     border-radius: 4px;
     opacity: .94;
-    animation: fadeInDown ease-out 1s;
-    animation-iteration-count: 1;
-    -webkit-animation: fadeInDown ease-out 1s;
-    -webkit-animation-iteration-count: 1;
-    -o-animation: fadeInDown ease-out 1s;
-    -o-animation-iteration-count: 1;
-    -moz-animation: fadeInDown ease-out 1s;
-    -moz-animation-iteration-count: 1;
-    -ms-animation: fadeInDown ease-out 1s;
-    -ms-animation-iteration-count: 1;
+    animation: fadeInDown ease-out 1.5s 1 1;
+    -webkit-animation: fadeInDown ease-out 1.5s 1 1;
+    -o-animation: fadeInDown ease-out 1.5s 1 1;
+    -moz-animation: fadeInDown ease-out 1.5s 1 1;
+    -ms-animation: fadeInDown ease-out 1.5s 1 1;
     cursor: url(),auto;
 }
 
