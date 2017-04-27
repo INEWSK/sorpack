@@ -93,11 +93,11 @@ body {
     font-family: "Arial", "Verdana", "sans-serif";
     border-radius: 4px;
     opacity: .94;
-    animation: fadeInDown ease-out 1.5s 1 1;
-    -webkit-animation: fadeInDown ease-out 1.5s 1 1;
-    -o-animation: fadeInDown ease-out 1.5s 1 1;
-    -moz-animation: fadeInDown ease-out 1.5s 1 1;
-    -ms-animation: fadeInDown ease-out 1.5s 1 1;
+    animation: fadeInDown 1 ease-out 1 1 1 normal;
+    -webkit-animation: fadeInDown 1 ease-out 1 1 1 normal;
+    -o-animation: fadeInDown 1 ease-out 1 1 1 normal;
+    -moz-animation: fadeInDown 1 ease-out 1 1 1 normal;
+    -ms-animation: fadeInDown 1 ease-out 1 1 1 normal;
     cursor: url(),auto;
 }
 
