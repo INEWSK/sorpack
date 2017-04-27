@@ -80,18 +80,19 @@
   </div>
 
 <style>
-/*----------------------------------------------------------
-	Body
-----------------------------------------------------------*/
+
+/* Body */
+
 body {
-    opacity: .94;
     background-color: transparent;
     background-image: url(/UploadFile/2017-2/201721719201383310.gif),
     url(/skins/Default/css/blue/kabg.gif);
     background-attachment: fixed, scroll;
     background-repeat: no-repeat, repeat;
     background-position: 70% 70%, 0 0;
+    font-family: "Tahoma", "Verdana", "sans-serif";
     border-radius: 4px;
+    opacity: .94;
     animation: fadeInDown ease-out 1s;
     animation-iteration-count: 1;
     -webkit-animation: fadeInDown ease-out 1s;
@@ -110,8 +111,8 @@ body {
 }
 
 .tableborder5 {
-    border: 1px solid #f66;
     background-color: transparent;
+    border: 1px solid #f66;
 }
 
 .tabletitle1 {
@@ -120,9 +121,9 @@ body {
 }
 
 div.th {
-    border-color: #f66;
     background-color: #f66;
     background-image: none;
+    border-color: #f66;
 }
 
 a:visited {
@@ -173,13 +174,13 @@ a:visited {
 }
 
 .list_a {
-    border-right: 1px solid rgba(0,0,0,.4);
     background-color: transparent;
+    border-right: 1px solid rgba(0,0,0,.4);
 }
 
 .list_c {
-    border-right: 1px solid rgba(0,0,0,.4);
     background-color: transparent;
+    border-right: 1px solid rgba(0,0,0,.4);
 }
 
 .list_r {
@@ -187,13 +188,13 @@ a:visited {
 }
 
 .list_r1 {
-    border-left: 1px solid rgba(0,0,0,.4);
     background-color: transparent;
+    border-left: 1px solid rgba(0,0,0,.4);
 }
 
 .list_s {
-    border-right: 1px solid rgba(0,0,0,.4);
     background-color: transparent;
+    border-right: 1px solid rgba(0,0,0,.4);
 }
 
 .list1 {
@@ -201,20 +202,14 @@ a:visited {
 }
 
 .list {
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.4);
     margin-bottom: 5px;
     padding: 4px;
-    border: 1px solid rgba(0,0,0,.4);
-    background-color: transparent;
 }
 
-#shojo {
-    float: right;
-    width: 35%;
-}
+/* Header */
 
-/*----------------------------------------------------------
-	Header
-----------------------------------------------------------*/
 #topbar_top {
     display: none;
 }
@@ -231,41 +226,44 @@ a:visited {
     display: none;
 }
 
-/*----------------------------------------------------------
-	Jigen Ryōiki
-----------------------------------------------------------*/
+#shojo {
+    float: right;
+    width: 35%;
+}
+
+/* Jigen Ryōiki */
+
 .jr {
     background-image: url(/UploadFile/2017-4/201742025073511.gif);
     background-repeat: no-repeat;
-    animation: 15s linear 0s normal none infinite rotate;
-    -webkit-animation:12.5s linear 0s normal none infinite rotate;
     height: 250px;
     width: 250px;
     position: relative;
     margin-right: auto;
     margin-left: auto;
     z-index: 0;
+    animation: 15s linear 0s normal none infinite rotate;
+    -webkit-animation:12.5s linear 0s normal none infinite rotate;
 }
 
-/*----------------------------------------------------------
-	Mainbar
-----------------------------------------------------------*/
+/* Mainbar */
+
 .mainbar0 {
     background-color: rgba(0,0,0,0);
 }
 
 .mainbar3 {
+    background-color: transparent;
     border-right: 1px solid #f66;
     border-bottom: 1px solid #f66;
     border-left: 1px solid #f66;
-    background-color: transparent;
 }
 
 .mainbar4 {
+    background-color: transparent;
     border-top: 1px solid #f66;
     border-right: 1px solid #f66;
     border-left: 1px solid #f66;
-    background-color: transparent;
 }
 
 #boardmaster {
@@ -292,9 +290,8 @@ a:visited {
     background-image: url(/skins/Default/css/button/z_xzb.gif);
 }
 
-/*----------------------------------------------------------
-	Help tip
-----------------------------------------------------------*/
+/* Help tip */
+
 .help-tip {
     position: absolute;
     top: 12%;
@@ -357,9 +354,8 @@ a:visited {
     left: 0;
 }
 
-/*----------------------------------------------------------
-	Font
-----------------------------------------------------------*/
+/* Font */
+
 .blurry {
     color: transparent;
     text-shadow: 0 0 15px #666;
@@ -379,9 +375,8 @@ pre {
     word-wrap: break-word;
 }
 
-/*----------------------------------------------------------
-	Return top 
-----------------------------------------------------------*/
+/* Return top */
+
 #backtop a {
     background-image: url(/UploadFile/2017-4/2017422344267591.gif);
     background-repeat: no-repeat;
@@ -397,9 +392,8 @@ pre {
     -webkit-border-radius: 15px;
 }
 
-/*----------------------------------------------------------
-	Button 
-----------------------------------------------------------*/
+/* Button */
+
 #menu {
     margin-top: 20px;
 }
@@ -458,9 +452,8 @@ pre {
     top: 1px;
 }
 
-/*----------------------------------------------------------
-	Scroll bar
-----------------------------------------------------------*/
+/* Scroll bar */
+
 ::-webkit-scrollbar-track-piece {
     background-color: #fff;
     -webkit-border-radius: 0;
@@ -489,9 +482,8 @@ pre {
     border-radius: 4px;
 }
 
-/*----------------------------------------------------------
-	Animation
-----------------------------------------------------------*/
+/* Animation */
+
 @keyframes rotate {
 	from {
 		-webkit-transform: rotate(0deg)
