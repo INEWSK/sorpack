@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://cs47.com/index.asp?boardid=307">
-    <img src="http://cs47.com/UploadFile/2017-4/20174222491494281.png" width=160 height=64>
+    <img src="http://cs47.com/UploadFile/2017-4/20174222491494281.png">
   </a>
 </p>
 
