@@ -1,6 +1,5 @@
-  <br /> 
   <div class="help-tip"> 
-   <p>该板块布局经过修改，如有需要，请查看这个链接：<a href="/dispbbs.asp?boardID=307&amp;ID=2367415&amp;page=1">ACGer 板块 CSS 美化代码分享</a></p> 
+   <p>该板块样式经过修改，如有需要，请查看这个链接：<a href="/dispbbs.asp?boardID=307&amp;ID=2367415&amp;page=1">ACGer 板块 CSS 美化代码分享</a></p> 
   </div> 
   <div id="backtop"> 
    <a href="#" target="_self"></a> 
@@ -8,22 +7,10 @@
   <audio src="/UploadFile/2016-6/20166718561812706.mp3" autoplay=""></audio> 
   <div style="text-align: center">
    <img alt="icon" src="/UploadFile/2017-4/20174222491494281.png"/>
-  </div>
-  <br />
   <hr class="hrstyle">
-  <br />
-  <div style="text-align: center"> 
-   <strong><h1>來者皆客 以<font color="Red">和</font>為貴 以<font color="Red">禮</font>待人</h1></strong> 
-  </div> 
-  <br /> 
-  <div style="text-align: center"> 
+   <h1 style="font-weight: bold; margin: 0 0 30px">來者皆客 以<font color="Red">和</font>為貴 以<font color="Red">禮</font>待人</h1>
    <a href="//www.bilibili.com/video/av9772446/" target="_blank"><img class="top_img" src="/UploadFile/2017-3/201731021142285272.gif" alt="あれこれ全部まとめ" /></a> 
-  </div> 
-  <br /> 
-  <div style="text-align: center"> 
-   <p style="color: rgb(102, 102, 102);"><q>當進入這扇門；後面是貫徹紳士與可愛的SEKAI！每個人都有自己的燃點和萌點，這裡就是它們的匯聚之處。</q></p> 
-  </div> 
-  <div style="text-align: center"> 
+   <p style="color: rgb(102, 102, 102); margin: 35px 0 10px"><q>當進入這扇門；後面是貫徹紳士與可愛的SEKAI！每個人都有自己的燃點和萌點，這裡就是它們的匯聚之處。</q></p>  
    <div id="menu"> 
     <div id="myButton"> 
      <a target="_blank" href="/dv_plus/sp_team/team_info.asp?team_name=ACGer">公會頁面</a> 
@@ -42,15 +29,10 @@
     </div> 
    </div> 
   </div> 
-  <br /> 
-  <br />
   <hr class="hrstyle">
-  <br /> 
-  <br /> 
   <div style="max-width: 1366px; margin:0 auto"> 
-   <img alt="" src="/UploadFile/2016-7/201672316325829201.gif" /> 
+   <img alt="" src="/UploadFile/2016-7/201672316325829201.gif"  style="margin: 25px 0 25px" /> 
    <img alt="" src="/UploadFile/2017-2/20172515234143384.gif" style="float: right; overflow: hidden" />
-   <br /> 
    <p>元年夏六月丙申</p> 
    <p><strong>神威</strong>修一米六有餘，而形貌奇醜，朝服衣冠，窺鏡，謂其<strong>110</strong>曰：『我孰與魔族<strong>爆破</strong>醜？』</p> 
    <p>其<strong>110</strong>曰：『君醜甚，<strong>爆破</strong>何能及君也？』<strong>爆破</strong>，魔族之最醜者也。 </p> 
@@ -60,9 +42,7 @@
    <p>暮寢而思之，曰：『吾<strong>110</strong>之醜我者，私我也；<strong>開心</strong>之醜我者，畏我也；<strong>太陽</strong>之醜我者，欲有求於我也。 』</p> 
    <p>————</p> 
    <p>Writer by <strong>a1034342991</strong></p>
-   <br /> 
-   <img alt="" src="/UploadFile/2016-7/201672316325829201.gif" /> 
-   <br /> 
+   <img alt="" src="/UploadFile/2016-7/201672316325829201.gif" style="margin: 25px 0 25px" /> 
    <p>《孔乙己改編》：</p> 
    <p><strong>2009</strong>一到網吧，所有網吧的人便都看著他笑，有的叫到：『<strong>2009</strong>，你是不是又背著媽媽偷偷上網了！』</p> 
    <p>他不回答，對網管說：『開一台機子，再要一瓶營養快線』然後掏出一張20元鈔票。</p> 
@@ -127,7 +107,7 @@ a:visited {
 
 .hrstyle {
 	width: 80%;
-	margin: 5px auto;
+	margin: 35px auto 35px auto;
 	border: 0;
 	border-bottom: 1px dashed #fc8d83;
 }
@@ -360,9 +340,12 @@ a:visited {
     text-shadow: 0 0 0 #666;
 }
 
-pre {
-    white-space: pre-line;
-    word-wrap: break-word;
+p.small {
+    line-height: 90%
+}
+
+p.big {
+    line-height: 200%
 }
 
 /* Return top */
