@@ -79,6 +79,8 @@ body {
     -moz-animation: fadeInDown 1s ease-out 0s 1;
     -ms-animation: fadeInDown 1s ease-out 0s 1;
     cursor: url(),auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .tableborder2 {
@@ -115,18 +117,15 @@ a:visited {
 .list {
     display: inline-block;
     overflow: hidden;
-    box-shadow: 0 0 1px transparent;
+    box-shadow: 3px 0px 2px pink;
+	-moz-box-shadow: 3px 0px 2px pink;
     vertical-align: middle;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
-    -webkit-transition-property: property;
-    transition-property: property;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	background-color: transparent;
+    border: 1px solid rgba(0,0,0,.4);
+    margin-bottom: 5px;
+    padding: 4px;
 }
 
 .list:active,.list:focus,.list:hover {
@@ -141,6 +140,8 @@ a:visited {
     -moz-animation: Bounce 1s linear 0s 1;
     -o-animation: Bounce 1s linear 0s 1;
     -ms-animation: Bounce 1s linear 0s 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
 .list_a {
@@ -169,13 +170,6 @@ a:visited {
 
 .list1 {
     border-right: 1px solid #fff;
-}
-
-.list {
-    background-color: transparent;
-    border: 1px solid rgba(0,0,0,.4);
-    margin-bottom: 5px;
-    padding: 4px;
 }
 
 /* Header */
@@ -285,8 +279,8 @@ a:visited {
 .help-tip:hover p {
     display: block;
     transform-origin: 100% 0%;
-    -webkit-animation: fadeIn 0.3s ease-in-out;
-    animation: fadeIn 0.3s ease-in-out;
+    -webkit-animation: fadeIn .5s ease-in-out;
+    animation: fadeIn .5s ease-in-out;
 }
 
 .help-tip p {
