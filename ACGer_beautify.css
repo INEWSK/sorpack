@@ -71,11 +71,11 @@ body {
     background-position: 70% 70%, 0 0;
     font-family: "Arial", "Verdana", "sans-serif";
     opacity: .94;
-    animation: fadeInDown 1s ease-out 0s 1;
-    -webkit-animation: fadeInDown 1s ease-out 0s 1;
-    -o-animation: fadeInDown 1s ease-out 0s 1;
-    -moz-animation: fadeInDown 1s ease-out 0s 1;
-    -ms-animation: fadeInDown 1s ease-out 0s 1;
+    animation: fadeInDown 1.4s ease-out 0s 1;
+    -webkit-animation: fadeInDown 1.4s ease-out 0s 1;
+    -o-animation: fadeInDown 1.4s ease-out 0s 1;
+    -moz-animation: fadeInDown 1.4s ease-out 0s 1;
+    -ms-animation: fadeInDown 1.4s ease-out 0s 1;
     cursor: url("/UploadFile/2017-4/201742820143257942.gif"), default;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -129,7 +129,6 @@ a:visited {
     -o-border-radius: 5px;
     background-color: transparent;
     border: 1px solid rgba(0,0,0,.4);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
     margin-bottom: 5px;
     padding: 4px;
 }
