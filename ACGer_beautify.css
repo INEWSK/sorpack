@@ -531,13 +531,13 @@ p.big {
 @-o-keyframes fadeInDown {
     from {
         opacity: 0;
-        -webkit-transform: translate3d(0, -1%, 0);
+        -o-transform: translate3d(0, -1%, 0);
         transform: translate3d(0, -1%, 0);
     }
 
     to {
         opacity: 1;
-        -webkit-transform: none;
+        -o-transform: none;
         transform: none;
     }
 }
@@ -545,13 +545,13 @@ p.big {
 @-moz-keyframes fadeInDown {
     from {
         opacity: 0;
-        -webkit-transform: translate3d(0, -1%, 0);
+        -moz-transform: translate3d(0, -1%, 0);
         transform: translate3d(0, -1%, 0);
     }
 
     to {
         opacity: 1;
-        -webkit-transform: none;
+        -moz-transform: none;
         transform: none;
     }
 }
@@ -559,18 +559,18 @@ p.big {
 @-ms-keyframes fadeInDown {
     from {
         opacity: 0;
-        -webkit-transform: translate3d(0, -1%, 0);
+        -ms-transform: translate3d(0, -1%, 0);
         transform: translate3d(0, -1%, 0);
     }
 
     to {
         opacity: 1;
-        -webkit-transform: none;
+        -ms-transform: none;
         transform: none;
     }
 }
 
-@-webkit-keyframes fadeIn {
+@keyframes fadeIn {
     0% {
         opacity: 0;
         transform: scale(0.6)
@@ -582,13 +582,15 @@ p.big {
     }
 }
 
-@keyframes fadeIn {
+@-webkit-keyframes fadeIn {
     0% {
-        opacity: 0
+        opacity: 0;
+        -webkit-transform: scale(0.6)
     }
 
     100% {
-        opacity: 100%
+        opacity: 100%;
+        -webkit-transform: scale(1)
     }
 }
 
@@ -622,36 +624,6 @@ p.big {
     }
 }
 
-@-moz-keyframes Bounce {
-    0% {
-        -moz-transform: translate(0,0)
-    }
-
-    15% {
-        -moz-transform: translate(0,-5px)
-    }
-
-    30% {
-        -moz-transform: translate(0,0)
-    }
-
-    45% {
-        -moz-transform: translate(0,-2px)
-    }
-
-    60% {
-        -moz-transform: translate(0,0)
-    }
-
-    75% {
-        -moz-transform: translate(0,-1px)
-    }
-
-    100% {
-        -moz-transform: translate(0,0)
-    }
-}
-
 @-webkit-keyframes Bounce {
     0% {
         -webkit-transform: translate(0,0)
@@ -682,6 +654,36 @@ p.big {
     }
 }
 
+@-moz-keyframes Bounce {
+    0% {
+        -moz-transform: translate(0,0)
+    }
+
+    15% {
+        -moz-transform: translate(0,-5px)
+    }
+
+    30% {
+        -moz-transform: translate(0,0)
+    }
+
+    45% {
+        -moz-transform: translate(0,-2px)
+    }
+
+    60% {
+        -moz-transform: translate(0,0)
+    }
+
+    75% {
+        -moz-transform: translate(0,-1px)
+    }
+
+    100% {
+        -moz-transform: translate(0,0)
+    }
+}
+
 @-o-keyframes Bounce {
     0% {
         -o-transform: translate(0,0)
@@ -709,6 +711,82 @@ p.big {
 
     100% {
         -o-transform: translate(0,0)
+    }
+}
+
+@-ms-keyframes Bounce {
+    0% {
+        -ms-transform: translate(0,0)
+    }
+
+    15% {
+        -ms-transform: translate(0,-5px)
+    }
+
+    30% {
+        -ms-transform: translate(0,0)
+    }
+
+    45% {
+        -ms-transform: translate(0,-2px)
+    }
+
+    60% {
+        -ms-transform: translate(0,0)
+    }
+
+    75% {
+        -ms-transform: translate(0,-1px)
+    }
+
+    100% {
+        -ms-transform: translate(0,0)
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        color: red
+    }
+
+    10% {
+        color: #ff8000
+    }
+
+    20% {
+        color: #ff0
+    }
+
+    30% {
+        color: #80ff00
+    }
+
+    40% {
+        color: #0f0
+    }
+
+    50% {
+        color: #00ff80
+    }
+
+    60% {
+        color: #0ff
+    }
+
+    70% {
+        color: #0080ff
+    }
+
+    80% {
+        color: #00f
+    }
+
+    90% {
+        color: #8000ff
+    }
+
+    100% {
+        color: #f09
     }
 }
 
@@ -850,48 +928,4 @@ p.big {
     }
 }
 
-@keyframes rainbow {
-    0% {
-        color: red
-    }
-
-    10% {
-        color: #ff8000
-    }
-
-    20% {
-        color: #ff0
-    }
-
-    30% {
-        color: #80ff00
-    }
-
-    40% {
-        color: #0f0
-    }
-
-    50% {
-        color: #00ff80
-    }
-
-    60% {
-        color: #0ff
-    }
-
-    70% {
-        color: #0080ff
-    }
-
-    80% {
-        color: #00f
-    }
-
-    90% {
-        color: #8000ff
-    }
-
-    100% {
-        color: #f09
-    }
 </style>
