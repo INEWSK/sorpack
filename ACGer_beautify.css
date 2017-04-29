@@ -120,12 +120,16 @@ a:visited {
     display: inline-block;
     overflow: hidden;
     box-shadow: 3px 0px 2px pink;
+	-webkit-box-shadow: 3px 0px 2px pink;
     -moz-box-shadow: 3px 0px 2px pink;
     vertical-align: middle;
+	border-radius: 5px;
     -webkit-border-radius: 5px;
-    border-radius: 5px;
+    -moz-border-radius: 5px;
+	-o-border-radius: 5px;
     background-color: transparent;
     border: 1px solid rgba(0,0,0,.4);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
     margin-bottom: 5px;
     padding: 4px;
 }
@@ -279,6 +283,7 @@ a:visited {
 
 .help-tip:hover p {
     display: block;
+	-webkit-transform-origin: 100% 0%;
     transform-origin: 100% 0%;
     -webkit-animation: fadeIn .5s ease-in-out;
     animation: fadeIn .5s ease-in-out;
