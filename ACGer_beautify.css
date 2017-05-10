@@ -210,11 +210,6 @@ a:visited {
     -webkit-animation: 12.5s linear 0s normal none infinite rotate;
 }
 
-#shojo {
-    float: right;
-    width: 35%;
-}
-
 /* Mainbar */
 
 .mainbar0 {
@@ -235,16 +230,16 @@ a:visited {
     border-left: 1px solid #f66;
 }
 
-#boardmaster a:nth-child(even) {
-    -ms-animation: rainbow 3s infinite;
-    -webkit-animation: rainbow 3s infinite;
-    -moz-animation: rainbow 3s infinite;
-    -o-animation: rainbow 3s infinite;
-    animation: rainbow 3s infinite;
+#boardmaster a:nth-child(odd) {
+    -ms-animation: rainbow 2s infinite;
+    -webkit-animation: rainbow 2s infinite;
+    -moz-animation: rainbow 2s infinite;
+    -o-animation: rainbow 2s infinite;
+    animation: rainbow 2s infinite;
 }
 
 #masterpic {
-    background: url("/UploadFile/2016-6/201661422493846481.gif") no-repeat scroll 50% 50%;
+    background: url("/UploadFile/2016-6/201661422493846481.gif") no-repeat;
 }
 
 #posttopic {
