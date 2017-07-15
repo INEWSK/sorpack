@@ -8,8 +8,8 @@
   <div style="text-align: center"> 
    <img alt="icon" src="/UploadFile/2017-4/20174222491494281.png" /> 
    <hr class="hrstyle" /> 
-   <h1 style="font-weight: bold; margin: 0 0 30px">來者皆客 以<font color="Red">和</font>為貴 以<font color="Red">禮</font>待人</h1> 
-   <a href="//www.bilibili.com/video/av9772446/" target="_blank"><img class="top_img" src="/UploadFile/2017-3/201731021142285272.gif" alt="あれこれ全部まとめ" /></a> 
+   <h1 style="font-weight: bold; margin: 0 0 30px">來者皆<font color="Red">客</font> 以<font color="Red">和</font>為貴 以<font color="Red">禮</font>待人</h1> 
+   <a href="//www.bilibili.com/video/av9772446/" target="_blank"><img class="top_img" src="/UploadFile/2017-7/201771520112382255.gif" alt="喵!!" /></a> 
    <p style="color: rgb(102, 102, 102); margin: 35px 0 10px"><q>當進入這扇門；後面是貫徹紳士與可愛的SEKAI！每個人都有自己的燃點和萌點，這裡就是它們的匯聚之處。</q></p> 
    <div id="menu"> 
     <div id="myButton"> 
@@ -69,7 +69,7 @@ body {
     background-attachment: fixed, scroll;
     background-repeat: no-repeat, repeat;
     background-position: 70% 70%, 0 0;
-    font-family: "Arial", "Verdana", "sans-serif";
+    font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
     opacity: .94;
     animation: fadeInDown 1.4s ease-out 0s 1;
     -webkit-animation: fadeInDown 1.4s ease-out 0s 1;
