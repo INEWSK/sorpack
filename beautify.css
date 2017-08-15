@@ -9,7 +9,7 @@
 body {
     background-image: url("/skins/Default/css/blue/kabg.gif");
     background-attachment: fixed, scroll;
-    background-repeat: no-repeat, repeat;
+    background-repeat: repeat;
     background-position: 70% 70%, 0 0;
     font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
     opacity: .94;
