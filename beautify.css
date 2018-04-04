@@ -92,6 +92,70 @@
                                                                                      
 ------------- */
 
+/* RESET */
+
+a {
+    color: #111;
+}
+
+a,
+img,
+input {
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+a:hover,
+.glow {
+    text-decoration: none;
+    color: #f66;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: #3E3E3E;
+}
+
+h1 {
+    font-size: 180%;
+}
+
+h2 {
+    font-size: 160%;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+h4 {
+    font-size: 130%;
+}
+
+h5 {
+    font-size: 120%;
+}
+
+h6 {
+    font-size: 110%;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
 /* Body */
 
 body {
@@ -105,21 +169,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.tableborder5 {
-    background-color: transparent;
-    border: 1px solid #f66;
-}
-
-.tabletitle1 {
-    background-color: #f66;
-    color: #fff;
-}
-
-div.th {
-    background-color: #f66;
-    background-image: none;
-    border-color: #f66;
-}
+/* List */
 
 .list {
     display: inline-block;
@@ -178,29 +228,33 @@ div.th {
     border-right: 1px solid #fff;
 }
 
+/* Table border */
+
+.tabletitle1 {
+    background-color: #f66;
+    color: #fff;
+}
+
+.tableborder2 {
+    display: none;
+}
+
+.tableborder5 {
+    background-color: transparent;
+    border: 1px solid #f66;
+}
+
 /* Mainbar */
 
 .mainbar0 {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
-.mainbar3 {
-    background-color: transparent;
-    border-right: 1px solid #f66;
-    border-bottom: 1px solid #f66;
-    border-left: 1px solid #f66;
-}
-
+.mainbar3,
 .mainbar4 {
     background-color: transparent;
-    border-top: 1px solid #f66;
-    border-right: 1px solid #f66;
-    border-left: 1px solid #f66;
-}
+    border: 1px solid #f66;
 
-#boardmaster a:nth-child(odd) {
-    -webkit-animation: rainbow 2s infinite;
-    animation: rainbow 2s infinite;
 }
 
 #posttopic {
@@ -213,6 +267,11 @@ div.th {
 
 #postpaper {
     background-image: url("/skins/Default/css/button/z_xzb.gif");
+}
+
+#boardmaster a:nth-child(odd) {
+    -webkit-animation: rainbow 2s infinite;
+    animation: rainbow 2s infinite;
 }
 
 /* Help tip */
@@ -278,20 +337,6 @@ div.th {
     position: absolute;
     top: -40px;
     left: 0;
-}
-
-/* Font */
-
-.blurry:hover {
-    text-shadow: 0 0 0 #666;
-}
-
-p.small {
-    line-height: 90%
-}
-
-p.big {
-    line-height: 200%
 }
 
 /* Scroll bar */
