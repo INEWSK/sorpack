@@ -169,6 +169,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+div.th {
+    background-color: #f66;
+    background-image: none;
+    border-color: #f66;
+}
+
 /* List */
 
 .list {
