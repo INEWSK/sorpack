@@ -241,10 +241,6 @@ div.th {
     color: #fff;
 }
 
-.tableborder2 {
-    display: none;
-}
-
 .tableborder5 {
     background-color: transparent;
     border: 1px solid #f66;
@@ -467,7 +463,7 @@ div.th {
 
 @keyframes rainbow {
     0% {
-        color: red
+        color: #f00
     }
 
     10% {
@@ -513,7 +509,7 @@ div.th {
 
 @-webkit-keyframes rainbow {
     0% {
-        color: red
+        color: #f00
     }
 
     10% {
