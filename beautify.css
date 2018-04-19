@@ -163,10 +163,11 @@ body {
     background-attachment: fixed;
     background-repeat: repeat;
     background-position: 0 0;
-    font-family: -apple-system, "Helvetica Neue", Arial, "PingFang SC", "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: -apple-system, Roboto, "Helvetica Neue", helvetica, Arial, "sans-serif", "Microsoft JhengHei", 微軟正黑體, "Microsoft YaHei", "微软雅黑";
+    -webkit-animation: fadeInner 0.4s;
+    animation: fadeInner 0.4s;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, .23); 
     opacity: .94;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 div.th {
@@ -367,6 +368,24 @@ div.th {
 }
 
 /* Animation */
+
+@-webkit-keyframes fadeInner {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInner {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 @keyframes fadeIn {
     0% {
